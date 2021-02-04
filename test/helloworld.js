@@ -3,7 +3,7 @@
  
 async function testOne(){
 const Amplify = require ('aws-amplify');
-const API = require ('@aws-amplify/api');
+const API = require ('aws-amplify').API;
 
 const awsmobile = {
     "aws_project_region": "ap-southeast-1",
