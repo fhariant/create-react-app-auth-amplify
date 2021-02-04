@@ -1,7 +1,7 @@
 const Amplify = require ('aws-amplify');
 const API = require ('@aws-amplify/api');
 
-const awsconfig = require ('src/aws-exports');
+const awsconfig = require ('../src/aws-exports');
 
 Amplify.configure(awsconfig);
 
