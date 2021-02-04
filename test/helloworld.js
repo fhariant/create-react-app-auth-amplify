@@ -1,3 +1,7 @@
+
+
+ 
+async function(){ 
 const Amplify = require ('aws-amplify');
 const API = require ('@aws-amplify/api');
 
@@ -18,7 +22,6 @@ const awsmobile = {
 };
 
 Amplify.configure(awsmobile);
- 
  resources = {
 	body: {}
   }
@@ -31,3 +34,4 @@ Amplify.configure(awsmobile);
       if(fail != null) console.log(fail);
       console.log('error: ', err);
   }
+}();
