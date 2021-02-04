@@ -21,7 +21,7 @@ const awsmobile = {
     ]
 };
 
-Amplify.configure(awsmobile);
+Amplify.default.configure(awsmobile);
  resources = {
 	body: {}
   }
