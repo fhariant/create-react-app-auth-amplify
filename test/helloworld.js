@@ -20,7 +20,7 @@ const awsmobile = {
 Amplify.configure(awsmobile);
  
  resources = {
- body: }|
+	body: {}
   }
   try{
      const data = await API.get({"helloworldapi"}, {"https://690cw9ug01.execute-api.ap-southeast-1.amazonaws.com/devo"}, resources);
