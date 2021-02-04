@@ -1,7 +1,7 @@
 
 
  
-async function(){ 
+async function testOne(){ 
 const Amplify = require ('aws-amplify');
 const API = require ('@aws-amplify/api');
 
@@ -34,4 +34,5 @@ Amplify.configure(awsmobile);
       if(fail != null) console.log(fail);
       console.log('error: ', err);
   }
-}();
+}
+testOne();
