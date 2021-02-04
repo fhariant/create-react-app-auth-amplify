@@ -26,13 +26,18 @@ Amplify.default.configure(awsmobile);
 	body: {}
   }
   try{
+	 console.log('calling it');
      const data = await API.get("helloworldapi", "https://690cw9ug01.execute-api.ap-southeast-1.amazonaws.com/devo", resources);
-     if(success != null) console.log(success);
+     console.log('after calling it');
+     
+	 if(success != null) console.log(success);
      console.log('data: ', data);
      return data;
   }catch(err){
+	  console.log('err--rr', err);
+     
       if(fail != null) console.log(fail);
       console.log('error: ', err);
   }
 }
-testOne();
+testOne().catch(console.error);
