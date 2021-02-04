@@ -1,4 +1,22 @@
 {
+  "devo": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-create-react-app-auth-amplify-devo-31822-authRole",
+      "UnauthRoleArn": "arn:aws:iam::087063705256:role/amplify-create-react-app-auth-amplify-devo-31822-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::087063705256:role/amplify-create-react-app-auth-amplify-devo-31822-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-create-react-app-auth-amplify-devo-31822-deployment",
+      "UnauthRoleName": "amplify-create-react-app-auth-amplify-devo-31822-unauthRole",
+      "StackName": "amplify-create-react-app-auth-amplify-devo-31822",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:087063705256:stack/amplify-create-react-app-auth-amplify-devo-31822/a3b42880-6697-11eb-a90e-06c012599cae",
+      "AmplifyAppId": "d1dhtdv8bs6kbl"
+    },
+    "categories": {
+      "auth": {
+        "cognitocf0c6096": {}
+      }
+    }
+  },
   "devq": {
     "awscloudformation": {
       "AuthRoleName": "amplify-authcra-devq-51415-authRole",

@@ -68,7 +68,7 @@
         "Layers": [],
         "Timeout": "25",
         "Code": {
-          "S3Bucket": "amplify-authcra-devq-51415-deployment",
+          "S3Bucket": "amplify-create-react-app-auth-amplify-devo-31822-deployment",
           "S3Key": "amplify-builds/helloworldlambda-566c3255587250394f34-build.zip"
         }
       }
