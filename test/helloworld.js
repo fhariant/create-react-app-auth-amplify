@@ -1,7 +1,7 @@
 
 
  
-async function testOne(){ 
+async function testOne(){
 const Amplify = require ('aws-amplify');
 const API = require ('@aws-amplify/api');
 
@@ -26,7 +26,7 @@ Amplify.configure(awsmobile);
 	body: {}
   }
   try{
-     const data = await API.get({"helloworldapi"}, {"https://690cw9ug01.execute-api.ap-southeast-1.amazonaws.com/devo"}, resources);
+     const data = await API.get("helloworldapi", "https://690cw9ug01.execute-api.ap-southeast-1.amazonaws.com/devo", resources);
      if(success != null) console.log(success);
      console.log('data: ', data);
      return data;
